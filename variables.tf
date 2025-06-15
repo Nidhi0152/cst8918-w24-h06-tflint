@@ -7,6 +7,7 @@ variable "labelPrefix" {
 variable "region" {
   type    = string
   default = "westus3"
+  description = "Prefix for resource names"
 }
 
 
